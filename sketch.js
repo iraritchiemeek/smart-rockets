@@ -32,7 +32,7 @@ function draw() {
  	}
 
  	fill(255)
- 	rect(100, 150, 200, 10)
+ 	rect(obstacle_x, obstacle_y, obstacle_w, obstacle_h)
 
  	ellipse(target.x, target.y, 16, 16)
 }
